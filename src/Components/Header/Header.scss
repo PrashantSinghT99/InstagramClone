@@ -1,0 +1,35 @@
+.Header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 80px;
+  border: 1px solid lightgray;
+  background-color: #ffffff;
+  padding: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .status {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid coral;
+      overflow: cover;
+    }
+
+span {
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
